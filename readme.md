@@ -7,16 +7,7 @@ Data (EVARS-GPR)**, for which we provide an overview in the figure below.
 EVARS-GPR is an online time series forecasting algorithm that is able to handle sudden shifts in the target variable 
 scale of seasonal data. 
 For this purpose, EVARS-GPR combines online change point detection with a refitting of the prediction model using 
-data augmentation for samples prior to a change point. For more information, see our publication below.
-
-![AlgoOverview](figures/AlgoOverview.jpg)
-
-## Provided Datasets
-We recently published the horticultural sales prediction dataset _CashierData_, 
-which consists of weekly retail turnovers of several product groups and 
-covariates such as weather and holiday information. 
-In this dataset, we observe a strong sales increase of potted plants (_PotTotal_) 
-during the SARS-CoV-2 pandemic in 2020. 
+data augmentation for samples prior to a change point. For more information, see our publication linked below.
 
 ## Requirements
 We recommend a workflow using [Docker](https://www.docker.com/) to ensure a stable working environment.
