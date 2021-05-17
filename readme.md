@@ -35,6 +35,9 @@ All used Python packages and versions are specified in `Configs/packages.txt`.
     ```
     Mount the directory where the repository is placed on your machine in the Docker container.
 6. In the Docker container, navigate to the to top level of the repository in the mounted directory
+   ```bash
+    cd /DIRECTORY/IN/CONTAINER/evars-gpr
+   ```
    
 ### Run Offline GPR Fitting
 1. We provide a framework for a random search to optimize parameters of a GPR model during the offline search
