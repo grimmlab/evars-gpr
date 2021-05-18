@@ -7,7 +7,8 @@ Data (EVARS-GPR)**, for which we provide an overview in the figure below.
 EVARS-GPR is an online time series forecasting algorithm that is able to handle sudden shifts in the target variable 
 scale of seasonal data. 
 For this purpose, EVARS-GPR combines online change point detection with a refitting of the prediction model using 
-data augmentation for samples prior to a change point. For more information, see our publication linked below. &nbsp;  
+data augmentation for samples prior to a change point. For more information, see our publication linked below.
+<p>&nbsp;</p>
 
 <figure>
    <img src="figures/AlgoOverview.jpg" alt="AlgoOverview" width="600"/>
