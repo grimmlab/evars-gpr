@@ -122,8 +122,10 @@ This pipeline is developed and maintened by members of the [Bioinformatics](http
 - [Florian Haselbeck, M.Sc.](https://bit.cs.tum.de/team/florian-haselbeck/)
 
 ## Citation
-We are currently working on a paper regarding EVARS-GPR.
-
 When using this workflow, please cite our publication:
 
-tbd.
+**EVARS-GPR: EVent-triggered Augmented Refitting of Gaussian Process Regression for Seasonal Data**  
+Florian Haselbeck, Dominik G Grimm  
+*currently under review*  
+
+Keywords: Gaussian Process Regression, Seasonal Time Series, Change Point Detection, Online Time Series Forecasting, Data Augmentation.
