@@ -9,8 +9,15 @@ scale of seasonal data.
 For this purpose, EVARS-GPR combines online change point detection with a refitting of the prediction model using 
 data augmentation for samples prior to a change point. For more information, see our publication linked below.
 
-<img src="figures/AlgoOverview.jpg" alt="AlgoOverview" width="200"/>
-
+<figure>
+   <img src="figures/AlgoOverview.jpg" alt="AlgoOverview" width="800"/>
+   <figcaption><b>Overview of EVARS-GPR during the online phase and the preconditions in the offline phase.</b>
+The initial prediction model is trained offline. 
+During the online phase, the predic-tion of the next target value is followed by a change point detection. 
+If a change point is detected, the output scaling factor, which sets the target values of the current season in relation to previous seasons, is calculated. 
+If the deviation between the current and last output scaling factor exceeds a threshold, then an augmented refitting of the prediction model is triggered. 
+In case one of the two conditions is not fulfilled, EVARS-GPR continues using the current prediction model. </figcaption>
+</figure>
 
 ## Requirements
 We recommend a workflow using [Docker](https://www.docker.com/) to ensure a stable working environment.
