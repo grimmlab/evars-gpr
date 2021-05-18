@@ -9,6 +9,14 @@ scale of seasonal data.
 For this purpose, EVARS-GPR combines online change point detection with a refitting of the prediction model using 
 data augmentation for samples prior to a change point. For more information, see our publication linked below.
 
+![Algo Overview](figures/AlgoOverview.jpg)
+
+<figure>
+  <img src="figures/AlgoOverview.pdf" alt="Algo Overview">
+  <figcaption>Test</figcaption>
+</figure>
+
+
 ## Requirements
 We recommend a workflow using [Docker](https://www.docker.com/) to ensure a stable working environment.
 Subsequently, we describe the setup and operation according to it. 
@@ -25,6 +33,9 @@ All used Python packages and versions are specified in `Configs/packages.txt`.
     git clone https://github.com/grimmlab/evars-gpr
     ```
 3. Navigate to `Configs` after cloning the repository
+   ```bash
+    cd evars-gpr/Configs
+   ```
 4. Build a Docker image using the provided Dockerfile
     ```bash
     docker build -t IMAGENAME .
