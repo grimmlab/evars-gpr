@@ -10,8 +10,10 @@ For this purpose, EVARS-GPR combines online change point detection with a refitt
 data augmentation for samples prior to a change point. For more information, see our publication linked below.
 <p>&nbsp;</p>
 
-<figure>
-   <img src="figures/AlgoOverview.jpg" alt="AlgoOverview" width="600"/>
+<figure style="margin: 0;">
+   <div style="line-height: 0;">
+         <img align="middle" src="figures/AlgoOverview.jpg" alt="AlgoOverview" width="600"/>
+   </div>
    <figcaption><b>Figure 1. Overview of EVARS-GPR during the online phase and the preconditions in the offline phase.</b>
 The initial prediction model is trained offline. 
 During the online phase, the prediction of the next target value is followed by a change point detection. 
