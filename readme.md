@@ -3,11 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository provides source code for **EVent-triggered Augmented Refitting of Gaussian Process Regression for Seasonal 
-Data (EVARS-GPR)**, for which we provide an overview in the figure below. See our paper talk at YouTube: https://youtu.be/jZ6hZNMa-TE 
+Data (EVARS-GPR)**, for which we provide an overview in the figure below. 
 EVARS-GPR is an online time series forecasting algorithm that is able to handle sudden shifts in the target variable 
 scale of seasonal data. 
 For this purpose, EVARS-GPR combines online change point detection with a refitting of the prediction model using 
-data augmentation for samples prior to a change point. For more information, see our publication linked below.
+data augmentation for samples prior to a change point. For more information, see our publication linked below or our paper talk at YouTube: https://youtu.be/jZ6hZNMa-TE 
 <p>&nbsp;</p>
 
 <figure style="margin: 0;">
