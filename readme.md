@@ -118,7 +118,7 @@ containing `Data` and `OptimResults` need to be accessible. Beyond that, there i
 Feel free to add a new one, if you want to use the framework for another dataset or change the settings for the existing ones.
 
 ## Contributors
-This pipeline is developed and maintened by members of the [Bioinformatics](https://bit.cs.tum.de) lab of [Prof. Dr. Dominik Grimm](https://bit.cs.tum.de/team/dominik-grimm/):
+This pipeline is developed and maintained by members of the [Bioinformatics](https://bit.cs.tum.de) lab of [Prof. Dr. Dominik Grimm](https://bit.cs.tum.de/team/dominik-grimm/):
 - [Florian Haselbeck, M.Sc.](https://bit.cs.tum.de/team/florian-haselbeck/)
 
 ## Citation
