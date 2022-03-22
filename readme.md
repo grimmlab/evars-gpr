@@ -126,6 +126,7 @@ When using this workflow, please cite our publication:
 
 **EVARS-GPR: EVent-triggered Augmented Refitting of Gaussian Process Regression for Seasonal Data**  
 Florian Haselbeck, Dominik G Grimm  
+*KI 2021: Advances in Artificial Intelligence (2021)*
 https://doi.org/10.1007/978-3-030-87626-5_11   
 
 Keywords: Gaussian Process Regression, Seasonal Time Series, Change Point Detection, Online Time Series Forecasting, Data Augmentation.
